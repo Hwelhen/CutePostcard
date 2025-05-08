@@ -1,0 +1,6 @@
+<div class="container">
+    <h1>Введите имя своего парня</h1>
+    <input [(ngModel)]="name" placeholder="Имя" />
+    <button (click)="checkName()" [ngStyle]="{'top': buttonPosition.top, 'left': buttonPosition.left}" class="move-button">Ввести имя парня</button>
+  </div>
+  
