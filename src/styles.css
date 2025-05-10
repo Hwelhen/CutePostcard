@@ -43,7 +43,7 @@ body {
   #link-to-home {
     position: fixed;
     top: 94%;
-    left: 43.3%;
+    left: 25%;
     text-decoration: underline;
     border: 3px solid #ff77a8;
     border-radius: 5px;
@@ -56,12 +56,6 @@ body {
   
   #button-confir {
     width: 40%;
-  }
-
-  .note {
-    position: absolute;
-    top: 110px;
-    left: 550px;
   }
 
   .breakbutton {
