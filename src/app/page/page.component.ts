@@ -12,8 +12,6 @@ import { Router } from '@angular/router';
 export class PageComponent {
   name: string = '';
   count: number = 0;
-  t: number = 90;
-  l: number = 32;
   buttonPosition: { top: string; left: string } = { top: '90%', left: '32%' };
 
   constructor(private router: Router) {}
@@ -28,17 +26,9 @@ export class PageComponent {
 
   moveButton() {
     if (this.count < 2) {
-      let bt = this.t;
-      while (this.t != bt && this.t < 80) {
-        this.t = Math.random() * 100
-      }
-      let bl = this.l;
-      while (this.l != bl && this.l < 60) {
-        this.l = Math.random() * 100
-      }
       this.buttonPosition = {
-        top: this.t + '%',
-        left: this.l + '%'
+        top: Math.random() * 100 + '%',
+        left: Math.random() * 100 + '%'
       };
       this.count++;
     } else {
