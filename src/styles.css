@@ -43,7 +43,7 @@ body {
   #link-to-home {
     position: fixed;
     top: 94%;
-    left: 25%;
+    left: 27%;
     text-decoration: underline;
     border: 3px solid #ff77a8;
     border-radius: 5px;
@@ -61,7 +61,7 @@ body {
   .breakbutton {
     position: fixed;
     top: 80%;
-    left: 30%;
-    width: 40%;
-    height: 10%;
+    left: 32%;
+    width: 50%;
+    height: 15%;
   }

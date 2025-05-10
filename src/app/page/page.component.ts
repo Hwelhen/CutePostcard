@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 export class PageComponent {
   name: string = '';
   count: number = 0;
-  buttonPosition: { top: string; left: string } = { top: '90%', left: '30%' };
+  buttonPosition: { top: string; left: string } = { top: '90%', left: '32%' };
 
   constructor(private router: Router) {}
 

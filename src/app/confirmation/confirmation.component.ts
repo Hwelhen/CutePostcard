@@ -10,7 +10,7 @@ import { NgStyle } from '@angular/common';
 })
 export class ConfirmationComponent {
   count: number = 0;
-  buttonPosition: { top: string; left: string } = { top: '85%', left: '30%' };
+  buttonPosition: { top: string; left: string } = { top: '85%', left: '32%' };
 
   constructor(private router: Router) {}
 
