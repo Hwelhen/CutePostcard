@@ -7,7 +7,7 @@
   }
   
   .cats {
-    position: absolute;
+    position: fixed;
     transition: top 0.1s linear, left 0.1s linear;
   }
   
