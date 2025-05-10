@@ -49,9 +49,13 @@ body {
     border-radius: 5px;
     padding: 5px 5px;
   }
+
+  #butto-page {
+    width: 40%;
+  }
   
   #button-confir {
-    width: 10%;
+    width: 40%;
   }
 
   .note {

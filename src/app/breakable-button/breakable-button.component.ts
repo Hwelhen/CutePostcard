@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { trigger, state, style, transition, animate } from '@angular/animations';
 import { Router } from '@angular/router';
 import { NgIf } from '@angular/common';
 
@@ -18,7 +17,7 @@ export class BreakableButtonComponent {
 
   breakProtection() {
     this.clickCount++;
-    if (this.clickCount > 5) {
+    if (this.clickCount > 1) {
       this.state = 'broken';
       this.isClickable = true;
     }
