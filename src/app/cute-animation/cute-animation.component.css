@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .cats {
+    position: absolute;
+    transition: top 0.1s linear, left 0.1s linear;
+  }
+  
+  .kiss {
+    position: fixed;
+    font-size: 5rem;
+    animation: fadeOut 1s forwards;
+  }
+
+  .kiss-img {
+    width: 100px;
+    height: 70px;
+  }
+  
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  
+  .cat {
+    width: 100px; /* Размер кота */
+    border: 5px solid #ff77a8;
+    border-radius: 25px;
+  }

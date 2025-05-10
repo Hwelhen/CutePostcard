@@ -1,0 +1,7 @@
+<div class="container-protector">
+    <button (click)="onButtonClick()"  class="protected-button">
+      ТОЧНО ТОЧНО ТОЧНО
+    </button>
+    <div *ngIf="state !== 'broken'" class="protection-layer" (click)="breakProtection()"></div>
+  </div>
+  

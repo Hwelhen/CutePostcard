@@ -1,0 +1,8 @@
+<div class="success-container">
+    <div class="cats" *ngFor="let cat of cats" [ngStyle]="{'top.px': cat.y, 'left.px': cat.x}">
+      <img [src]="cat.image" (click)="catHit(cat)" class="cat" />
+    </div>
+    <div *ngFor="let kiss of kisses" [ngStyle]="{'top.px': kiss.y, 'left.px': kiss.x}" class="kiss">
+      <img src="/imgs/wing.png" class="kiss-img"/>
+    </div>
+</div>
